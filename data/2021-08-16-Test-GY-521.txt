@@ -5,7 +5,7 @@ Code von https://mschoeffler.com/2017/10/05/tutorial-how-to-use-the-gy-521-modul
 Messintervall: 100ms
 Messprotokoll:
 20:00:10 - Stillstand
-20:00:08 - Bewegung Z Achse (hoch-runter)
+20:00:18 - Bewegung Z Achse (hoch-runter)
 20:00:27 - Bewegung X-Achse (rechts-links)
 20:00:36 - Bewegung Y-Achse (vor-zurück)
 20:00:48 - Rotation um Y-Achse, -90° ... 90°
