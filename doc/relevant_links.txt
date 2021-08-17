@@ -1,0 +1,9 @@
+Garmin Speed Sensor description:
+https://support.garmin.com/en-US/?faq=9NL91YJSJd3Tnyif9jRSy6
+
+Gyroscope-based wheel rotation for wheelchair users:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3758531/
+
+Wahoo Speed sensor: how does it work, exactly?
+https://bicycles.stackexchange.com/questions/52359/wahoo-speed-sensor-how-does-it-work-exactly
+https://support.wahoofitness.com/hc/en-us/articles/115000326410-How-does-the-RPM-Speed-work-
