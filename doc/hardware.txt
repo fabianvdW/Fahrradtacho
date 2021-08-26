@@ -1,0 +1,13 @@
+Arduino Nano 33 BLE
+- Bluetooth Low Energy
+- The Nano 33 BLE comes with a 9 axis inertial measurement unit (IMU) which means that it includes an accelerometer, a gyroscope, and a magnetometer with 3-axis resolution each.
+- Barometer
+https://store.arduino.cc/products/arduino-nano-33-ble?_gl=1%2Aq1lmjt%2A_ga%2AMTg4NTQ1OTc2OC4xNjI5Nzg2NDE1%2A_ga_NEXN8H46L5%2AMTYzMDAwOTI4MS4zLjEuMTYzMDAwOTI4OC4w
+
+LSM9DS1
+9-axis iNEMO inertial module (IMU): 3D magnetometer, 3D accelerometer, 3D gyroscope with I2C and SPI
+https://www.st.com/en/mems-and-sensors/lsm9ds1.html
+
+LPS22HB
+MEMS nano pressure sensor: 260-1260 hPa absolute digital output barometer
+https://www.st.com/en/mems-and-sensors/lps22hb.html
