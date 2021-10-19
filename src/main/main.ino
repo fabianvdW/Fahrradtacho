@@ -1,4 +1,9 @@
 // MAC Address: E5AD7E6164E0
+#include <SPI.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_PCD8544.h>
+
+Adafruit_PCD8544 display = Adafruit_PCD8544(7, 6, 5, 4, 3);
 
 const float wheelSize = 2.174; // m
 const float minSpeed = 2.; // km/h
@@ -23,6 +28,11 @@ void callback() {
 void setup() {
   Serial.begin(9600);
   Serial.println("BLE Test");
+  // Init display
+  display.begin();
+  display.setContrast(60);
+  display.setTextSize(2);
+  display.clearDisplay();
 
   pinMode(2, INPUT);
 
@@ -37,5 +47,9 @@ void loop() {
   Serial.print("speed=");
   Serial.print(speed);
   Serial.println(" km/h");
+  display.clearDisplay();
+  display.println(int(speed * 100) / 100.); // Crazy rounding
+  display.print("km/h");
+  display.display();
   delay(500);
 }
